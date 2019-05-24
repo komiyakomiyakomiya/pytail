@@ -7,7 +7,7 @@ setup(
     install_requires=['cliff'],
     entry_points={
         'console_scripts':
-            'mytail = tail_command_by_python.main:tail_main'
+            'pytail = tail_command_by_python.main:tail_main'
     },
     zip_safe=False,
     classifiers=[
