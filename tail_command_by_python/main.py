@@ -23,7 +23,7 @@ def tail_main():
 
     number_of_line_from_end = args.number
     file_path = args.file_path
-    is_reverse = args.reverse.title
+    # is_reverse = args.reverse.title
 
     # reverse_switch = -1 if is_reverse else 1
     reverse_switch = -1
