@@ -21,6 +21,10 @@ tail コマンドを python で実装しました。
 
 `pip install git+https://github.com/naokikomiya/tail_command_by_python.git`
 
+## Uninstall
+
+`pip uninstall pytail`
+
 ## Licence
 
 This software is released under the MIT License, see LICENSE.
