@@ -3,4 +3,4 @@ import sys
 
 
 def tail_main(argv=sys.argv[1:]):
-        print('What a wonder!!')
+    print('What a wonder!!')
