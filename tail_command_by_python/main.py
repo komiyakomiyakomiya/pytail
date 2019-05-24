@@ -2,7 +2,8 @@
 import sys
 
 args_list = sys.argv
-number_of_line_from_end, file_path = args_list[1:3]
+number_of_line_from_end = args_list[1]
+file_path = args_list[2]
 
 
 def tail_main(path):
@@ -11,4 +12,4 @@ def tail_main(path):
 
 
 line_of_contents_list = tail_main(file_path)
-print("".join(line_of_contents_list[(-1 * number_of_line_from_end):]))
+print("".join(line_of_contents_list[(-1 * int(number_of_line_from_end)):]))
