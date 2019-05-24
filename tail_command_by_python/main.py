@@ -2,7 +2,8 @@
 import sys
 
 args_list = sys.argv
-number_of_line_from_end, file_path = args_list[1:3]
+number_of_line_from_end = args_list[1]
+file_path = args_list[2]
 
 
 def tail_main(path):
