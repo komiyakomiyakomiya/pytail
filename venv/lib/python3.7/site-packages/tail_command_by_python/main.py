@@ -3,4 +3,7 @@ import sys
 
 
 def tail_main(argv=sys.argv[1:]):
-    print('What a wonder!!')
+    if argv == None:
+        print('引数わいっ！？')
+    else:
+        print(argv)
