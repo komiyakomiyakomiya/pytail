@@ -1,9 +1,8 @@
 # _*_ coding: utf-8 _*_
 import sys
 
-args_list = sys.argv
-number_of_line_from_end = args_list[1]
-file_path = args_list[2]
+number_of_line_from_end = sys.argv[1]
+file_path = sys.argv[2]
 
 
 def tail_main(my_path):
