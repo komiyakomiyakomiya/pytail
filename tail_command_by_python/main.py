@@ -6,8 +6,8 @@ number_of_line_from_end = args_list[1]
 file_path = args_list[2]
 
 
-def tail_main(path):
-    with open(path, 'r') as file_contents:
+def tail_main(my_path):
+    with open(my_path, 'r') as file_contents:
         return file_contents.readlines()
 
 
