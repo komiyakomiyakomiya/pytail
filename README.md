@@ -2,11 +2,11 @@
 
 ## Overview
 
-tail コマンドを python で実装しました。
+I implemented the tail command in python.
 
 ## Description
 
-ファイルの末尾から n 行を出力します。
+Print n lines from the end of the file.
 
 ## Usage
 
@@ -14,8 +14,9 @@ tail コマンドを python で実装しました。
 
 ### option
 
-- -n 行末から出力する行数を数値で指定
-- -f ファイルパスを指定
+- -n : Specify the number of lines to output from the end of the line
+
+- -f : Specify file path
 
 ## Install
 
