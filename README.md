@@ -20,7 +20,7 @@ Print n lines from the end of the file.
 
 ## Install
 
-`pip install git+https://github.com/naokikomiya/tail_command_by_python.git`
+`pip install git+https://github.com/komiyakomiyakomiya/pytail.git`
 
 ## Uninstall
 
